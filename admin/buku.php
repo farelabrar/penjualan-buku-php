@@ -135,8 +135,7 @@ function rupiah($nilai)
 
                                                 //jika hanya ingin mencari berdasarkan kode_produk, silahkan hapus dari awal OR
                                                 //jika ingin mencari 1 ketentuan saja query nya ini : SELECT * FROM produk WHERE kode_produk like '%".$kata_cari."%' 
-                                                $result = mysqli_query($koneksi, "SELECT * FROM buku WHERE judul like '%" . $kata_cari . "%' OR penerbit like '%" . $kata_cari . "%' OR pengarang like '%" . $kata_cari . "%' LIMIT " . $limitStart . "," . $limit);
-
+                                                $result = mysqli_query($koneksi, "SELECT * FROM buku WHERE judul like '%" . $kata_cari . "%' LIMIT " . $limitStart . "," . $limit);
                                                 $no = $limitStart + 1;
                                             } else {
 
