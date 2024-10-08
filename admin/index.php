@@ -12,7 +12,7 @@ function rupiah($nilai)
 ?>
 
 <head>
-    <title>Erdian-Books | Aplikasi Sistem Administrasi Penjualan Buku</title>
+    <title>Kelompok 7 | Aplikasi Sistem Administrasi Penjualan Buku</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -37,7 +37,7 @@ function rupiah($nilai)
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="brand">
-				<a href="index.php"><img src="../assets/img/logo.png" alt="Erdian-Books" class="img-responsive logo"></a>
+				<a href="index.php"><img src="../assets/img/kelompok7.png" alt="ini Gambar" class="img-responsive logo"></a>
 			</div>
 			<div class="container-fluid">
 				<div class="navbar-btn">
